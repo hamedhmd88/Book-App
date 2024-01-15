@@ -7,11 +7,11 @@ import styles from './SearchBox.module.css';
 
 export default function SearchBox({search, setSearch, searchHandler}) {
   return (
-    <div>
+    <div className={styles.search}>
       <input type="text" placeholder="Search title..." value={search} onChange={(e) => setSearch(e.target.value.toLowerCase())}/>
-      
+
       <button onClick={searchHandler}>
-        <IoSearchSharp/>
+        <IoSearchSharp />
       </button>
     </div>
   )
