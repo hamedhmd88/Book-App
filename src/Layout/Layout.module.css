@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #303030;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    color: #6552f4;
+}
+
+.footer{
+    text-align: center;
+    background-color: #303030;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: #6552f4;
+}
